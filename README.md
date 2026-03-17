@@ -29,3 +29,28 @@ The dataset used is "anime_characters.csv", which contains information about ani
 
 * Processed dataset
 * Trained ML model (linear_model.pkl)
+
+## Environment Setup (Reproducibility)
+
+Follow these steps to recreate the project environment:
+
+1. Clone the repository:
+   git clone https://github.com/your-username/mlops-unit1.git
+
+2. Navigate into the project folder:
+   cd mlops-unit1
+
+3. (Optional but recommended) Create a virtual environment:
+   python -m venv venv
+
+4. Activate the virtual environment:
+
+   * Windows: venv\Scripts\activate
+   * Mac/Linux: source venv/bin/activate
+
+5. Install dependencies:
+   pip install -r requirements.txt
+
+6. Run the project:
+   python src/preprocess.py
+   python src/train_model.py
