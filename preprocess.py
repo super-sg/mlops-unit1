@@ -18,3 +18,12 @@ print(df.describe())
 # Check missing values
 print("\nMissing Values:\n")
 print(df.isnull().sum())
+
+# Show first few rows again (verification)
+print("\nPreview of dataset:\n")
+print(df.head())
+
+# Save dataset locally
+df.to_csv("processed_anime_data.csv", index=False)
+
+print("\nDataset saved successfully!")
