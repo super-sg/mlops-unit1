@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load dataset from local file
-df = pd.read_csv("anime_characters.csv")
+df = pd.read_csv("data/anime_characters.csv")
 
 # Display dataset structure
 print("Dataset Info:\n")

@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import joblib
 
 # Load dataset
-df = pd.read_csv("anime_characters.csv")
+df = pd.read_csv("data/anime_characters.csv")
 
 print("Columns:", df.columns)
 
