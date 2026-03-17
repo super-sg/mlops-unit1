@@ -35,7 +35,7 @@ The dataset used is "anime_characters.csv", which contains information about ani
 Follow these steps to recreate the project environment:
 
 1. Clone the repository:
-   git clone https://github.com/your-username/mlops-unit1.git
+   git clone https://github.com/super-sg/mlops-unit1.git
 
 2. Navigate into the project folder:
    cd mlops-unit1
